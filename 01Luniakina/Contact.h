@@ -12,9 +12,6 @@ private:
     string _lastname;
 
     vector<string> _phone;
-   // string *_phone;
-
-  //  int _amount;
 
 public:
 

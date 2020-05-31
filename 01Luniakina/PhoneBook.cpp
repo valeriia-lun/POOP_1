@@ -1,6 +1,3 @@
-//
-// Created by Valerie Luniakina on 27.05.2020.
-//
 
 #include "PhoneBook.h"
 #include "Contact.h"

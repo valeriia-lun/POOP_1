@@ -6,7 +6,6 @@
 class PhoneBook {
 private:
     vector<Contact> _contact;
-    //int _size;
 
 public:
     PhoneBook();
@@ -22,7 +21,7 @@ public:
     const Contact & operator[](const int index) const{return _contact[index];}
 
     void addContact(Contact c);
-    void deleteContact(int index);  //???????????
+    void deleteContact(int index);
 
     Contact searchByName(string name);
     Contact searchByLastname(string lastname);
